@@ -1,0 +1,64 @@
+{
+    "tests": [
+        {
+          "name": "Exercise 1",
+          "setup": "sh .github/scripts/setup_emulators.sh",
+          "run": "./gradlew app:connectedAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=edu.uoc.pac2.Ex1Test",
+          "input": "",
+          "output": "",
+          "comparison": "included",
+          "timeout": 15,
+          "points": 10
+        },
+        {
+          "name": "Exercise 2",
+          "setup": "sh .github/scripts/setup_emulators.sh",
+          "run": "./gradlew app:connectedAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=edu.uoc.pac2.Ex2Test",
+          "input": "",
+          "output": "",
+          "comparison": "included",
+          "timeout": 15,
+          "points": 20
+        },
+      {
+        "name": "Exercise 3",
+        "setup": "sh .github/scripts/setup_emulators.sh",
+        "run": "./gradlew app:connectedAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=edu.uoc.pac2.Ex3Test",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 15,
+        "points": 20
+      },
+      {
+        "name": "Exercise 4",
+        "setup": "sh .github/scripts/setup_emulators.sh",
+        "run": "./gradlew app:connectedAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=edu.uoc.pac2.Ex4Test",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 15,
+        "points": 10
+      },
+      {
+        "name": "Exercise 5",
+        "setup": "sh .github/scripts/setup_emulators.sh",
+        "run": "./gradlew app:connectedAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=edu.uoc.pac2.Ex5Test",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 15,
+        "points": 10
+      },
+      {
+        "name": "Exercise 7",
+        "setup": "sh .github/scripts/setup_emulators.sh",
+        "run": "./gradlew app:connectedAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=edu.uoc.pac2.Ex7Test",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 15,
+        "points": 10
+      }
+    ]
+  }
